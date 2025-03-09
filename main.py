@@ -51,4 +51,3 @@ if check_button:
             st.write(f"😯 Sorry! You lost the game. The number is {guess_number}")
 if play_again_button:
     st.session_state.chances = 0
-    guessed_number = st.number_input("Enter your guess number", start_number, end_number)
